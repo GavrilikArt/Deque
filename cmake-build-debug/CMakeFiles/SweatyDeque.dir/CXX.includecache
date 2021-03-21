@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/CLionProjects/SweatyDeque/deque.h
+iostream
+-
+
+/Users/apple/CLionProjects/SweatyDeque/main.cpp
+iostream
+-
+iterator
+-
+vector
+-
+initializer_list
+-
+deque.h
+/Users/apple/CLionProjects/SweatyDeque/deque.h
+
