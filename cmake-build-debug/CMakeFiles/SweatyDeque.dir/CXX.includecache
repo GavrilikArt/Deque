@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/Users/apple/CLionProjects/SweatyDeque/deque.cpp
+deque.h
+/Users/apple/CLionProjects/SweatyDeque/deque.h
+
 /Users/apple/CLionProjects/SweatyDeque/deque.h
 iostream
 -
-
-/Users/apple/CLionProjects/SweatyDeque/main.cpp
 iostream
 -
 iterator
@@ -19,6 +21,10 @@ vector
 -
 initializer_list
 -
+
+/Users/apple/CLionProjects/SweatyDeque/test.cpp
 deque.h
 /Users/apple/CLionProjects/SweatyDeque/deque.h
+iostream
+-
 

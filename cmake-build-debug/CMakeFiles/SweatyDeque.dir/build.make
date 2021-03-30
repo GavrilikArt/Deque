@@ -77,30 +77,45 @@ include CMakeFiles/SweatyDeque.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SweatyDeque.dir/flags.make
 
-CMakeFiles/SweatyDeque.dir/main.cpp.o: CMakeFiles/SweatyDeque.dir/flags.make
-CMakeFiles/SweatyDeque.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/CLionProjects/SweatyDeque/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SweatyDeque.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SweatyDeque.dir/main.cpp.o -c /Users/apple/CLionProjects/SweatyDeque/main.cpp
+CMakeFiles/SweatyDeque.dir/deque.cpp.o: CMakeFiles/SweatyDeque.dir/flags.make
+CMakeFiles/SweatyDeque.dir/deque.cpp.o: ../deque.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/CLionProjects/SweatyDeque/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SweatyDeque.dir/deque.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SweatyDeque.dir/deque.cpp.o -c /Users/apple/CLionProjects/SweatyDeque/deque.cpp
 
-CMakeFiles/SweatyDeque.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SweatyDeque.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/CLionProjects/SweatyDeque/main.cpp > CMakeFiles/SweatyDeque.dir/main.cpp.i
+CMakeFiles/SweatyDeque.dir/deque.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SweatyDeque.dir/deque.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/CLionProjects/SweatyDeque/deque.cpp > CMakeFiles/SweatyDeque.dir/deque.cpp.i
 
-CMakeFiles/SweatyDeque.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SweatyDeque.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/CLionProjects/SweatyDeque/main.cpp -o CMakeFiles/SweatyDeque.dir/main.cpp.s
+CMakeFiles/SweatyDeque.dir/deque.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SweatyDeque.dir/deque.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/CLionProjects/SweatyDeque/deque.cpp -o CMakeFiles/SweatyDeque.dir/deque.cpp.s
+
+CMakeFiles/SweatyDeque.dir/test.cpp.o: CMakeFiles/SweatyDeque.dir/flags.make
+CMakeFiles/SweatyDeque.dir/test.cpp.o: ../test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/CLionProjects/SweatyDeque/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SweatyDeque.dir/test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SweatyDeque.dir/test.cpp.o -c /Users/apple/CLionProjects/SweatyDeque/test.cpp
+
+CMakeFiles/SweatyDeque.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SweatyDeque.dir/test.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/CLionProjects/SweatyDeque/test.cpp > CMakeFiles/SweatyDeque.dir/test.cpp.i
+
+CMakeFiles/SweatyDeque.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SweatyDeque.dir/test.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/CLionProjects/SweatyDeque/test.cpp -o CMakeFiles/SweatyDeque.dir/test.cpp.s
 
 # Object files for target SweatyDeque
 SweatyDeque_OBJECTS = \
-"CMakeFiles/SweatyDeque.dir/main.cpp.o"
+"CMakeFiles/SweatyDeque.dir/deque.cpp.o" \
+"CMakeFiles/SweatyDeque.dir/test.cpp.o"
 
 # External object files for target SweatyDeque
 SweatyDeque_EXTERNAL_OBJECTS =
 
-SweatyDeque: CMakeFiles/SweatyDeque.dir/main.cpp.o
+SweatyDeque: CMakeFiles/SweatyDeque.dir/deque.cpp.o
+SweatyDeque: CMakeFiles/SweatyDeque.dir/test.cpp.o
 SweatyDeque: CMakeFiles/SweatyDeque.dir/build.make
 SweatyDeque: CMakeFiles/SweatyDeque.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/apple/CLionProjects/SweatyDeque/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SweatyDeque"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/apple/CLionProjects/SweatyDeque/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SweatyDeque"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SweatyDeque.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

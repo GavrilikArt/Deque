@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SweatyDeque.dir/main.cpp.o"
+  "CMakeFiles/SweatyDeque.dir/deque.cpp.o"
+  "CMakeFiles/SweatyDeque.dir/test.cpp.o"
   "SweatyDeque"
   "SweatyDeque.pdb"
 )

@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/apple/CLionProjects/SweatyDeque/main.cpp">
+		<Unit filename="/Users/apple/CLionProjects/SweatyDeque/deque.cpp">
+			<Option target="SweatyDeque"/>
+		</Unit>
+		<Unit filename="/Users/apple/CLionProjects/SweatyDeque/deque.h">
+			<Option target="SweatyDeque"/>
+		</Unit>
+		<Unit filename="/Users/apple/CLionProjects/SweatyDeque/test.cpp">
 			<Option target="SweatyDeque"/>
 		</Unit>
 		<Unit filename="/Users/apple/CLionProjects/SweatyDeque/CMakeLists.txt">

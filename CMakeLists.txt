@@ -3,4 +3,4 @@ project(SweatyDeque)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(SweatyDeque main.cpp)
+add_executable(SweatyDeque deque.cpp deque.h test.cpp)

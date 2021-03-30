@@ -143,32 +143,59 @@ SweatyDeque/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SweatyDeque.dir/build.make CMakeFiles/SweatyDeque.dir/build
 .PHONY : SweatyDeque/fast
 
-main.o: main.cpp.o
+deque.o: deque.cpp.o
 
-.PHONY : main.o
+.PHONY : deque.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SweatyDeque.dir/build.make CMakeFiles/SweatyDeque.dir/main.cpp.o
-.PHONY : main.cpp.o
+deque.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SweatyDeque.dir/build.make CMakeFiles/SweatyDeque.dir/deque.cpp.o
+.PHONY : deque.cpp.o
 
-main.i: main.cpp.i
+deque.i: deque.cpp.i
 
-.PHONY : main.i
+.PHONY : deque.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SweatyDeque.dir/build.make CMakeFiles/SweatyDeque.dir/main.cpp.i
-.PHONY : main.cpp.i
+deque.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SweatyDeque.dir/build.make CMakeFiles/SweatyDeque.dir/deque.cpp.i
+.PHONY : deque.cpp.i
 
-main.s: main.cpp.s
+deque.s: deque.cpp.s
 
-.PHONY : main.s
+.PHONY : deque.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SweatyDeque.dir/build.make CMakeFiles/SweatyDeque.dir/main.cpp.s
-.PHONY : main.cpp.s
+deque.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SweatyDeque.dir/build.make CMakeFiles/SweatyDeque.dir/deque.cpp.s
+.PHONY : deque.cpp.s
+
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SweatyDeque.dir/build.make CMakeFiles/SweatyDeque.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SweatyDeque.dir/build.make CMakeFiles/SweatyDeque.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SweatyDeque.dir/build.make CMakeFiles/SweatyDeque.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -179,9 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SweatyDeque"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... deque.o"
+	@echo "... deque.i"
+	@echo "... deque.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

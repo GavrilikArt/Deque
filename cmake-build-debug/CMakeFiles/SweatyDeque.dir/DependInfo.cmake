@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/apple/CLionProjects/SweatyDeque/main.cpp" "/Users/apple/CLionProjects/SweatyDeque/cmake-build-debug/CMakeFiles/SweatyDeque.dir/main.cpp.o"
+  "/Users/apple/CLionProjects/SweatyDeque/deque.cpp" "/Users/apple/CLionProjects/SweatyDeque/cmake-build-debug/CMakeFiles/SweatyDeque.dir/deque.cpp.o"
+  "/Users/apple/CLionProjects/SweatyDeque/test.cpp" "/Users/apple/CLionProjects/SweatyDeque/cmake-build-debug/CMakeFiles/SweatyDeque.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
